@@ -1,4 +1,4 @@
-
+import java.util.Arrays;
 public class NFLPlayer {
 
 	public static void main(String[] args) {
@@ -61,5 +61,35 @@ public Player() {
 	
 
 	}
+class PlayerManager{
+	Player[] playerlist = new Player[10];// The list will contain ten players
+	byte[] profilepic = new byte [10];
+	String[] name = new String[10];
+	private char[] DateofBirthandAddress = new char [10]; 
+	private int[] Age = new int [10]; 
+	double[] Height = new double[10]; 
+	double[] Weight = new double [10]; 
+	int[] Yards = new int [10];
+	double[] Ratings = new double [10];
+	int[] Touchdowns = new int [10];
+	int[] INT = new int [10];
+	int[] seasons = new int [10];
+	
+	
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
