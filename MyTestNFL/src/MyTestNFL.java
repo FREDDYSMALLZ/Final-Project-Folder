@@ -132,12 +132,55 @@ public class MyTestNFL {
 		int[] Interception = new int [10];
 		int[] seasons = new int [10];
 	
-
-	
-	
-              
-	
 	}
+           class OffensivePlayer extends player{
+		public static int Touchdowns = 1;
+		  public static  int Yards = 2;
+		  
+		 
+		  @Override
+		  public String toString(){
+			  return "OffensivePlayer";
+		  }
+		  public void setYards( int newYads){
+	    	  Yards = newYads;
+		  }
+		  public void setTouchdowns(int newTouchdowns){
+        	  Touchdowns = newTouchdowns;
+		  }
+		  public int getYards(){
+        	  return Yards;
+		  }
+		  public int getTouchdowns(){
+        	  return Touchdowns;
+		  }
+		 }
+	class DefensivePlayer extends player{
+		public int Interception = 1;
+		public  int Tackles = 2;
+		
+		@Override
+		  public String toString(){
+			  return "DeffensivePlayer";
+		  }
+		public void setInterception( int newInterception){
+	    	  Interception = newInterception;
+		  }
+		  public void setTackles(int newTackles){
+      	  Tackles = newTackles;
+		  }
+		  public int Interception(){
+      	  return Interception;
+		  }
+		  public int getTackles(){
+      	  return Tackles;
+      	  
+		  }
+			
+	}
+	
+        
+
 	
 	
 	
