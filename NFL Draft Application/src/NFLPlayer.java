@@ -177,6 +177,94 @@ public class NFLPlayer {
 		  }
 			
 	}
+public interface Celebrator {
+	//dancing to celebrate
+	//Sliding on the carpet to celebrate
+	//Hugging team players for victory
+	
+	public default void celebrate(){
+		
+	}
+	public void dancing();
+	public void sliding();
+	public void Hugging();
+	public void knockingHeads();
+	public void Running();
+}
+public class OffensivePlayer implements Celebrator {
+
+	public OffensivePlayer() {
+		
+	}
+	
+	@Override
+	public void dancing() {
+		
+	}
+
+	@Override
+	public void sliding() {
+		
+	}
+
+	@Override
+	public void Hugging() {
+		
+	}
+
+	@Override
+	public void knockingHeads() {
+
+	}
+
+	@Override
+	public void Running() {
+
+	}
+
+	public static void main(String[] args) {
+
+
+	}
+
+}
+public class DeffensivePlayer implements Celebrator {
+
+	public DeffensivePlayer() {
+	}
+
+	@Override
+	public void dancing() {
+
+	}
+
+	@Override
+	public void sliding() {
+
+	}
+
+	@Override
+	public void Hugging() {
+		
+	}
+
+	@Override
+	public void knockingHeads() {
+	
+	}
+
+	@Override
+	public void Running() {
+		
+	}
+
+	public static void main(String[] args) {
+	
+
+	}
+
+}
+
 	
 	
 	
