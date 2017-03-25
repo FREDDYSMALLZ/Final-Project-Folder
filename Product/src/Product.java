@@ -1,9 +1,6 @@
 import java.util.Date;
 public  class Product {
 	
-
-
-
 	public static void main(String[] args) {
 		//Programing design for a product that can be found in a vending machine
 		
